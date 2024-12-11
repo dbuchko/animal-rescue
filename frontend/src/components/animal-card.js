@@ -13,12 +13,12 @@ export default class AnimalCard extends React.Component {
 
     render() {
         return (<Card>
+                <Image
+                    floated='center'
+                    size='medium'
+                    src={this.props.animal.avatarUrl}
+                />
                 <Card.Content>
-                    <Image
-                        floated='right'
-                        size='medium'
-                        src={this.props.animal.avatarUrl}
-                    />
                     <Card.Header>{this.props.animal.name}</Card.Header>
                     <Card.Meta>
                         <span className='date'>Rescued on {this.props.animal.rescueDate}</span>
