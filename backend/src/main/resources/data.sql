@@ -1,7 +1,7 @@
 insert into animal (id, name, rescue_date, avatar_url, description) values
 (1, 'Chocobo', '2019-12-25', 'https://cdn.pixabay.com/photo/2016/02/10/16/37/cat-1192026_1280.jpg', 'She is chubby, lazy, but always polite. She does not need much attention from you, but when she does, there is no way you can resist petting her.'),
 (2, 'Paprika', '2020-01-02', 'https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_1280.jpg', 'She is very active and funny, always in a mood to play and to be pet. Sometimes she gets too excited about playing so she run into walls and tables.'),
-(3, 'Sam', '2020-01-15', 'https://images.dog.ceo/breeds/pug/c677d2fa5324.jpg', 'Sam loves to lay around and be lazy. He plays well with kids and is a great companion for any family.'),
+(3, 'Sam', '2020-01-15', 'https://cdn.pixabay.com/photo/2017/07/31/21/15/dog-2561134_1280.jpg', 'Sam loves to lay around and be lazy. He plays well with kids and is a great companion for any family.'),
 (4, 'Mr. Huggins', '2019-11-23', 'https://cdn.pixabay.com/photo/2016/12/13/05/15/puppy-1903313_960_720.jpg', 'Mr. Huggins is a fluffy and cuddly little pup. He loves tummy rubs and kisses.'),
 (5, 'Brody', '2020-01-14', 'https://cdn.pixabay.com/photo/2017/09/07/23/02/rhodesian-ridgeback-2727035_960_720.jpg', 'Brody has lots of energy and loves the outdoors.'),
 (6, 'Ginger', '2020-01-12', 'https://cdn.pixabay.com/photo/2015/12/29/20/51/dog-1113398_960_720.jpg', 'Ginger is a posh Pomeranian that loves to be pampered by her humans.'),
