@@ -1,7 +1,4 @@
 {
-  "sso": {
-    "plan": "uaa"
-  },
   "count": 2,
   "memory": "2G",
   "disk": "512M",
@@ -11,5 +8,6 @@
   "documentation": "https://github.com/spring-cloud-services-samples/animal-rescue/",
   "version": "1.0.0-SNAPSHOT",
   "error-routes": [ { "code": "404", "redirect-path": "/rescue" } ],
-  "routes": [ { "uri": "https://example.org", "path": "/fallback/**" } ]
+  "routes": [ { "uri": "https://example.org", "path": "/fallback/**" } ],
+  "cors": { "allowed-origin-patterns": [ "https://*.apps.dhaka.cf-app.com" ] }
 }

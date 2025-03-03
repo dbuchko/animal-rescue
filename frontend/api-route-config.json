@@ -5,7 +5,7 @@
       "description": "SSO enabled path used by the login button",
       "path": "/rescue/login",
       "method": "GET",
-      "sso-enabled": true,
+      "sso-enabled": false,
       "filters": ["RedirectTo=302, /rescue"],
       "order": 0,
       "tags": ["sso"]
@@ -15,7 +15,7 @@
       "description": "Animal Rescue home page that doesn't require SSO login",
       "path": "/",
       "method": "GET",
-      "filters": [ "RedirectTo=302, /rescue" ],
+      "filters": ["RedirectTo=302, /rescue"],
       "tags": ["ui"]
     },
     {
