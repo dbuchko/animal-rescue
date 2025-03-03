@@ -1,0 +1,8 @@
+---
+applications:
+- name: animal-rescue-frontend
+  path: ./build
+  buildpacks:
+  - staticfile_buildpack
+  routes:
+    - route: animal-rescue-frontend.apps.internal
